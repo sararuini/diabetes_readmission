@@ -1,0 +1,75 @@
+ID,Variable 1,Dependency,Variable 2
+1,race ,->,num_inpatient_overnight_stays
+2,race ,->,num_lab_procedures 
+3,race ,->,number_diagnoses 
+4,race ,->,diabates_med_prescribed 
+5,gender ,->,number_diagnoses 
+6,gender ,->,num_current_medications 
+7,age ,->,num_previous_emergencies 
+8,age ,->,num_inpatient_overnight_stays
+9,age ,->,number_diagnoses 
+10,age ,->,days_in_hospital
+11,age ,->,change_in_meds
+12,age ,->,readmitted
+13,age ,->,diabates_med_prescribed 
+14,num_lab_procedures ,->,change_in_meds
+15,num_lab_procedures ,->,days_in_hospital
+16,num_outpatient_appointments ,->,diabates_med_prescribed 
+17,num_outpatient_appointments ,->,change_in_meds
+18,number_diagnoses,->,num_inpatient_overnight_stays
+19,number_diagnoses,->,num_lab_procedures 
+20,number_diagnoses,->,num_not_lab_procedures 
+21,number_diagnoses,->,num_current_medications 
+22,number_diagnoses,->,days_in_hospital
+23,number_diagnoses,->,num_outpatient_appointments 
+24,insulin,->,readmitted
+25,change_in_meds,->,metformin
+26,change_in_meds,->,repaglinide
+27,change_in_meds,->,nateglinide
+28,change_in_meds,->,chlorpropamide
+29,change_in_meds,->,glimepiride
+30,change_in_meds,->,acetohexamide
+31,change_in_meds,->,glipizide
+32,change_in_meds,->,glyburide
+33,change_in_meds,->,tolbutamide
+34,change_in_meds,->,pioglitazone
+35,change_in_meds,->,rosiglitazone
+36,change_in_meds,->,acarbose
+37,change_in_meds,->,miglitol
+38,change_in_meds,->,troglitazone
+39,change_in_meds,->,tolazamide
+40,change_in_meds,->,examide
+41,change_in_meds,->,citoglipvon
+42,change_in_meds,->,insulin
+43,change_in_meds,->,glyburide-metformin
+44,change_in_meds,->,glipizide-metformin
+45,change_in_meds,->,glimepiride-pioglitazone
+46,change_in_meds,->,metformin-rosiglitazone
+47,change_in_meds,->,metformin-pioglitazone
+48,change_in_meds,->,num_current_medications 
+49,change_in_meds,->,readmitted
+50,diabates_med_prescribed,->,metformin
+51,diabates_med_prescribed,->,repaglinide
+52,diabates_med_prescribed,->,nateglinide
+53,diabates_med_prescribed,->,chlorpropamide
+54,diabates_med_prescribed,->,glimepiride
+55,diabates_med_prescribed,->,acetohexamide
+56,diabates_med_prescribed,->,glipizide
+57,diabates_med_prescribed,->,glyburide
+58,diabates_med_prescribed,->,tolbutamide
+59,diabates_med_prescribed,->,pioglitazone
+60,diabates_med_prescribed,->,rosiglitazone
+61,diabates_med_prescribed,->,acarbose
+62,diabates_med_prescribed,->,miglitol
+63,diabates_med_prescribed,->,troglitazone
+64,diabates_med_prescribed,->,tolazamide
+65,diabates_med_prescribed,->,examide
+66,diabates_med_prescribed,->,citoglipvon
+67,diabates_med_prescribed,->,insulin
+68,diabates_med_prescribed,->,glyburide-metformin
+69,diabates_med_prescribed,->,glipizide-metformin
+70,diabates_med_prescribed,->,glimepiride-pioglitazone
+71,diabates_med_prescribed,->,metformin-rosiglitazone
+72,diabates_med_prescribed,->,metformin-pioglitazone
+73,diabates_med_prescribed,->,change_in_meds
+74,diabates_med_prescribed,->,readmitted

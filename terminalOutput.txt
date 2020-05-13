@@ -1,0 +1,50 @@
+run:
+________________________ Training data info ________________________
+Variables: 37
+Sample size: 99492
+___________________ Knowledge-based constraints ____________________
+Temporal constraints specified: 0
+Directed constraints specified: 0
+_______________________ Structure learning _________________________
+Running SaiyanH with settings:
+    a) Associational score: MeanMax [Absolute]
+    b) Conditional independence pruning: true
+    c) Faithfulness condition pruning: true
+    d) TABU search max escape attempts: V(V-1)
+Entering Phase 1 [EMST graph]...
+marginalDep.csv saved.
+Phase 1 completed.
+Entering Phase 2 [constraint-based learning]...
+conditionalDep.csv saved.
+conditionalIndep.csv saved.
+conditionalInsignificance.csv saved.
+Phase 2 completed.
+Entering Phase 3 [score-based learning]...
+Phase 3 completed.
+Arcs randomised during phase 2 constraint-based learning: 0
+Structure learning elapsed time: 966 seconds total (Phase 1 = 25 secs, Phase 2 = 222 secs).
+____________________________ Evaluation _____________________________
+Nodes: 39
+Sample size: 99492
+TrueDAG arcs: 74
+TrueDAG independencies: 667
+LearnedDAG arcs: 95
+LearnedDAG independencies: 646
+______________________ Confusion matrix stats _______________________
+Arcs discovered (TP): 11.0
+Partial arcs discovered (TP*0.5): 6.0
+False dependencies discovered (FP): 78.0
+Independencies discovered (TN): 589.0
+Dependencies not discovered (FN): 60.0. [NOTE: # of edges missed is 57.0]
+_____________ Stats from metrics and scoring functions ______________
+Precision score: 0.147
+Recall score: 0.189
+F1 score: 0.166
+SHD score: 138.000
+DDM score: -1.676
+BSF score: 0.072
+# of independent graphical fragments: 4
+____________________ Inference-based evaluation _____________________
+BIC/MDL score -1823544.875
+# of free parameters 10327
+BUILD SUCCESSFUL (total time: 16 minutes 24 seconds)
