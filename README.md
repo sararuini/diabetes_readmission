@@ -19,7 +19,7 @@ Data visualisation:
 
 Modelling:
 - KNN_Modelling.ipynb
-- Random_Forest_Classifier.ipynb
+- Random_Forest_Classifier.ipynb + Decision Tree
 
 Data prep for BN processing:
 - BN_discretisation.ipynb
