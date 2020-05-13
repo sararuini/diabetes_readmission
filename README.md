@@ -1,4 +1,4 @@
-Data Analytics project carried out:
+Data Analytics project carried out by:
 - Tinuke Durotolu 
 - Sara Ruini 
 - Susan Yousefi
